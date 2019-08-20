@@ -1,6 +1,6 @@
 {
   "name": "funny-time-lib",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "一些工作中常用的函数,目前包含格式化时间,随机字符串",
   "main": "dist/funny-utils.min.js",
   "scripts": {

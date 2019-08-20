@@ -1,6 +1,10 @@
 ####使用方式
 ```javascript
+//node
 npm i funny-time-lib
+
+// 浏览器
+<script src="https://cdn.jsdelivr.net/npm/funny-time-lib@3.1.0/dist/funny-utils.min.js"></script>
 ```
 
 #### 格式化时间

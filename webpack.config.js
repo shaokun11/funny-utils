@@ -3,9 +3,11 @@ const path = require('path');
 module.exports = {
     entry: './src/index.ts',
     output: {
-        filename: "index.min.js",
-        library: 'kunlib',
-        path: path.resolve(__dirname, 'dist-web'),
+        filename: "funny-utils.min.js",
+        library: 'funnyUtils',
+        libraryTarget: 'umd',
+        path: path.resolve(__dirname, 'dist'),
+        globalObject: "this",
     },
     mode: 'production',
     module: {

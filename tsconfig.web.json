@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "CommonJS",
+        "module": "es6",
         "outDir": "dist",
         "alwaysStrict": true,
         "sourceMap": false,
         "noImplicitAny": true,
         "moduleResolution": "node",
-        "declaration": false,
+        "declaration": true,
         "downlevelIteration": true,
         "lib": [
             "es2017",

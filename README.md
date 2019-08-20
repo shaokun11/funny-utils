@@ -1,3 +1,7 @@
+####使用方式
+```javascript
+npm i funny-time-lib
+```
 
 #### 格式化时间
 ```javascript
@@ -70,4 +74,5 @@ console.log(randomManyElements([1,2,3,4,5],false, 3)) // [ 2, 4, 5 ]
 
 #### 更新记录
 
+* v3.1.0 --> 增加example
 * v3.0.0 --> 增加一些随机小工具,增加浏览器导入lib的入口 dist-web

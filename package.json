@@ -1,0 +1,27 @@
+{
+  "name": "funny-time-lib",
+  "version": "3.0.0",
+  "description": "一些工作中常用的函数,目前包含格式化时间,随机字符串",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:web": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "funny",
+    "time",
+    "random string",
+    "random"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaokun11/funny-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
